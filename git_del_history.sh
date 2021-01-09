@@ -8,4 +8,4 @@ git repack -A -d
  
 git gc --aggressive --prune=now
 
-git push origin master --force
+#git push origin master --force
