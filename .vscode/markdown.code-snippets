@@ -15,7 +15,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-		"snippet arround": {
+	"snippet arround": {
 		"scope": "markdown",
 		"prefix": "sn",
 		"body": [
