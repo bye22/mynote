@@ -1,32 +1,43 @@
 # Zookeeper 安装、配置、使用
 ## 1.安装与配置过程
     解压：tar -zxvf zookeeper-3.4.10.tar.gz -C /usr/local
-重命名：mv zookeeper-3.4.10/ zookeeper
-修改环境变量 vim /etc/profile
+### 重命名：mv zookeeper-3.4.10/ zookeeper
+### 修改环境变量 vim /etc/profile
 
 ```
-
 #ZOOKEEPER配置
 export ZOOKEEPER_HOME=/usr/local/zookeeper
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
-
 ```
 
-刷新配置：source /etc/profile
-到zookeeper下修改配置文件 cd /usr/local/zookeeper/conf
-修改配置文件名称：mv zoo_sample.cfg zoo.cfg
-(修改两处，vim zoo.cfg )
+## 刷新配置：
+`source /etc/profile` 到zookeeper下修改配置文件 `cd /usr/local/zookeeper/conf`
+
+## 修改配置文件名称：mv zoo_sample.cfg zoo.cfg
+
+## 修改两处，vim zoo.cfg
+1. 
+```
 dataDir=/usr/local/zookeeper/data
+```
+2. 
 最后面添加：
+```
 server.0=192.168.56.200:2888:3888
 server.1=192.168.56.201:2888:3888
 server.2=192.168.56.202:2888:3888
-服务器标识配置
-创建文件夹：mkdir /usr/local/zookeeper/data
-创建文件myid并填写内容为0：vi myid (内容为服务器标识 ： 0)
+```
+## 服务器标识配置
+
+### 创建文件夹：mkdir /usr/local/zookeeper/data
+
+### 创建文件myid并填写内容为0：vi myid (内容为服务器标识 ： 0)
+
 把上面配置好的整个目录zookeeper拷贝至另外两台服务器：
+```
  scp -r zookeeper/ 192.168.56.201:/usr/local
  scp -r zookeeper/ 192.168.56.202:/usr/local
+```
 修改另外两台服务器以下两个内容
 
 /etc/profile环境变量配置

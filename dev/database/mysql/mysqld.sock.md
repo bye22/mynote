@@ -10,8 +10,3 @@
 
 4. 重新启动MySQL服务`service mysql restart`或`/etc/init.d/mysql restart`
 
-   [^龙白]: 
-
-   
-
-5. 
