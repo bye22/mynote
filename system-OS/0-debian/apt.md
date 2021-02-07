@@ -18,3 +18,7 @@
 ### 升级可用软件（All） 
 <pre><font color="#4E9A06"><b>bye@pop-os</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo apt upgrade</pre>
 
+## apt-fast 多线程apt-get工具安装
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get -y install apt-fast
