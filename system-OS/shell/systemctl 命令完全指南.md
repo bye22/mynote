@@ -469,4 +469,15 @@ Runlevel 4 : 多用户，无图形系统
 Runlevel 5 : 多用户，图形化系统
 Runlevel 6 : 关闭并重启机器
 ```
+---
+http://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-linux/ 
 
+http://www.tecmint.com/author/avishek/
+
+https://github.com/GOLinux 
+
+https://github.com/wxy 
+
+https://github.com/LCTT/TranslateProject 
+
+https://linux.cn/
