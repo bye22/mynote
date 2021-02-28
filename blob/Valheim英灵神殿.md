@@ -1,6 +1,6 @@
 # 《Valheim英灵神殿》常用控制台指令一览
 
-- F5可开启控制台，然后输入imacheater可打开作弊
+- F5可开启控制台，然后输入`imacheater`可打开作弊
 
 help = 查看所有指令
 
@@ -34,7 +34,7 @@ resetcharacter = 重置字符数据
 
 dpsdebug = 切换DPS调试
 
-save = 强制存档
+`save = 强制存档`
 
 resetwind = 复位风
 
