@@ -17,3 +17,14 @@ Add -Drecreate.x11.input.method=true to a new line
 Restart IDE
 
 ---
+## sudo vim .xprofile
+
+export LC_ALL=zh_CN.utf8
+
+export XMODIFIERS=@im=fcitx
+
+export QT_IM_MODULE=xim
+
+export GTK_IM_MODULE=xim
+
+fcitx -d

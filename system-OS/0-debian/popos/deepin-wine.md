@@ -108,6 +108,26 @@
 
 那么，你应该试着安装`xxxx`，执行`apt-get install -s xxxx`（不需sudo，只是模拟，放心测试），它一般又会接着告诉你`依赖: yyyy 但是它将不会被安装`，说明更底层的错误出在了`yyyy`，不断尝试，找到罪魁祸首，然后去百度/google，不行的话提issue。
 
+###  中文输入法
+
+/opt/apps/com.qq.weixin.deepin/files/run.sh
+
+```bash
+env locale=zh_CN
+export LC_ALL=zh_CN.UTF-8
+export XIM="fcitx"
+export XMODIFIERS="@im=fcitx"
+export GTK_IM_MODULE="fcitx"
+export QT_IM_MODULE="fcitx"
+```
+
+###  中文方块
+- 缺少中文字体
+```
+cp /usr/share/fonts/opentype/noto/* ~/.deepinwine/Deepin-QQ/drive_c/windows/Fonts
+cp /usr/share/fonts/opentype/noto/* ~/.deepinwine/Deepin-WeChat/drive_c/windows/Fonts
+
+```
 ### 更多问题
 
 1. 多动脑，多动手，先排除无关因素，很多问题可能是一个删除清理/重启/重装就能解决的事。
