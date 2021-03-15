@@ -96,3 +96,11 @@ debugmode=飞行模式开/关(z键开关)
 
 动作代码：sit、wave、challenge、cheer、nonono、thumbsup、point
 
+# 延迟优化
+
+F2 查看帧数
+
+ssao
+
+垂直同步
+
