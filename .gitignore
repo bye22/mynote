@@ -4,4 +4,4 @@
 .idea
 /work
 /node_modules/
-.vscode/.easyRedis.redis
+.redisConsole.log
