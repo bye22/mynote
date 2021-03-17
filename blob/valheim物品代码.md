@@ -1,6 +1,6 @@
 游戏中按f5可开启控制台，然后输入imacheater可打开作弊，命令spawn - [物品名] - [数量] - (例：生成200个圆木 - spawn - RoundLog - 200)注意空格。
 
-装备类
+# 装备类
 ArmorBronzeChest - 青铜板甲
 
 ArmorBronzeLegs - 青铜板甲裤
@@ -59,7 +59,7 @@ HelmetTrollLeather - 巨魔皮头盔
 
 HelmetYule - 耶鲁帽
 
-箭矢类
+# 箭矢类
 ArrowBronze - 青铜箭
 
 ArrowFire - 燃烧的箭
@@ -80,7 +80,7 @@ ArrowSilver - 银制箭
 
 ArrowWood - 木箭
 
-武器类
+# 武器类
 AtgeirBlackmetal - 黑金属戟
 
 AtgeirBronze - 青铜戟
@@ -155,7 +155,7 @@ SwordBronze - 青铜剑
 
 SwordCheat - 一招必杀剑
 
-SwordIron - 铁箭
+SwordIron - 铁剑
 
 SwordIronFire - 火龙剑
 
@@ -169,7 +169,7 @@ Club - 棍子
 
 Torch - 火把
 
-工具类
+# 工具类
 AxeBronze - 青铜斧
 
 AxeFlint - 燧石斧
@@ -196,7 +196,7 @@ Hammer - 工具锤
 
 Hoe - 锄头
 
-魔法装备
+# 魔法装备
 BeltStrength - 梅金吉奥德腰带
 
 Wishbone - 愿望骨
@@ -205,7 +205,7 @@ HelmetDverger - 矮人光环
 
 TrollHide - 食人魔皮革
 
-成就相关
+# 成就相关
 TrophyBlob - 史莱姆的成就道具
 
 TrophyBoar - 猪的成就道具
@@ -406,7 +406,7 @@ YagluthDrop - 五王落物目前还不知道作用
 
 YmirRemains - 由米鲁的肉(商人贩卖)
 
-物品指令
+# 物品指令
 Amber - 琥珀
 
 AmberPearl - 琥珀珠
@@ -685,7 +685,7 @@ cultivate - 整地
 
 Cultivator - 整地耙
 
-Dandelion - 浦公茵
+Dandelion - 蒲公英
 
 dead_deer - 死鹿
 
