@@ -104,3 +104,7 @@ ssao
 
 垂直同步
 
+#  商人位置
+https://valheim-trader-finder.vercel.app/
+
+goto 3118,-5252
