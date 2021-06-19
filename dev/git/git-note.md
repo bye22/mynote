@@ -116,3 +116,102 @@ git config查看配置
 `git config --list`
 
 
+# Git设置全局忽略文件
+
+```
+touch ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
+
+# git cz使用(替代git commit 实现代码快速提交。)
+
+1. 安装
+```
+npm install -g commitizen
+
+npm install -g cz-conventional-changelog
+
+echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+```
+
+---
+
+> 项目中使用commitizen生成符合AngularJS规范的提交说明(可选)
+
+初始化命令主要进行了3件事情:
+
+在项目中安装cz-conventional-changelog 适配器依赖
+
+将适配器依赖保存到package.json的devDependencies字段信息
+
+在package.json中新增config.commitizen字段信息，主要用于配置cz工具的适配器路径
+
+```
+
+cd /[path]/[project]/
+
+npm init --yes
+
+commitizen init cz-conventional-changelog --save --save-exact --force
+
+
+```
+---
+2. 使用
+
+```
+git cz
+
+```
+
+说明:
+    三个部分:
+    ```
+    <Header> <Body> <Footer>
+    ```
+
+Header -| type
+        | scope
+        | subject
+
+```
+<type>(<scope>): <subject>
+```
+
+
+|  值  |  描述  |  表头3  |  表头4  |
+| :-----: | :----: | :----: | :----: |
+|  feat  |  新增一个功能  |    |    |
+|  fix  |  修复一个bug  |    |    |
+|  docs  |  文档变更  |    |    |
+|  style  |  代码格式(不影响功能,例如空格,分号等格式修正)  |    |    |
+|  refactor  |  代码重构  |    |    |
+|  perf  |  改善性能  |    |    |
+|  test  |  测试  |    |    |
+|  build  |  变更项目构建或外部依赖(例如scopes:webpack,gulp,npm,pom等)  |    |    |
+|  ci  |  更改持续集成软件的配置文件和package的script命令,例如scopes:Travis,Circle等  |    |    |
+|  chore  |  变更构建流程或辅助工具  |    |    |
+|  revert  |  代码回退  |    |    |
+
+scope: 说明commit影响范围.
+
+subject : commit简短描述.
+
+---
+
+Body : 
+commit详细描述,说明代码提交的详细说明.
+
+---
+
+Footer : 
+代码提交不兼容变更或关闭缺陷,则Footer必须,否则可以省略.
+不兼容变更: 
+        当前代码与上一个版本不兼容,则Footer以BREAKING CHANGE开头,
+        后面是对变更的描述,以及变动的理由和迁移方法.
+关闭缺陷 :
+         如果当前提交是针对特定的issue，那么可以在Footer部分填写需要关闭的单个issue 或一系列issues.
+---
+
+
+
