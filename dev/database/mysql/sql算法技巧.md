@@ -4,9 +4,8 @@
 
 # Join 算法总结
 
-    不论是Index Nested-Loop Join 还是 Block Nested-Loop Join 都是在Simple Nested-Loop Join
-
-    的算法的基础上 减少嵌套的循环次数， 不同的是 Index Nested-Loop Join 是通过索引的机制减少内层表的循环次数，Block Nested-Loop Join 是通过一次缓存多条数据批量匹配的方式来减少外层表的循环次数，通过 理解join 的算法原理我们可以得出以下表连接查询的优化思路。
+不同的是: `Index Nested-Loop Join` 是通过**索引的机制**减少内层表的循环次数，
+         `Block Nested-Loop Join` 是通过**一次缓存多条数据批量匹配**的方式来减少外层表的循环次数
 
     1、永远用小结果集驱动大结果集(其本质就是减少外层循环的数据数量)
 
