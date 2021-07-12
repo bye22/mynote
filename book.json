@@ -18,7 +18,7 @@
     
     "plugins": 
     [
-
+        "back-to-top-button",
         "-sharing",
         "-lunr",
         "-search",
@@ -30,7 +30,6 @@
         "github",
         "splitter",
         "flexible-alerts",
-        "pageview-count",
         "hide-element",
         "tbfed-pagefooter"
         
