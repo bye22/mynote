@@ -9,11 +9,11 @@
         }
     },
     "styles": {
-        "website": "styles/website.css",
-        "ebook": "styles/ebook.css",
-        "pdf": "styles/pdf.css",
-        "mobi": "styles/mobi.css",
-        "epub": "styles/epub.css"
+        "website": ".vscode/gitbook/styles/website.css",
+        "ebook": ".vscode/gitbook/styles/ebook.css",
+        "pdf": ".vscode/gitbook/styles/pdf.css",
+        "mobi": ".vscode/gitbook/styles/mobi.css",
+        "epub": ".vscode/gitbook/styles/epub.css"
     },
     
     "plugins": 
