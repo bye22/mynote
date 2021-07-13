@@ -1,9 +1,9 @@
 # 下载
-```
+```s
 $ wget http://download.redis.io/releases/redis-6.0.4.tar.gz
 ```
 # make
-```
+```s
 $ tar xzf redis-6.0.4.tar.gz
 $ cd redis-6.0.4
 $ make

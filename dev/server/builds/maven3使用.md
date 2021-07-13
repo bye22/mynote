@@ -1,3 +1,4 @@
+# 打入本地jar
 mvn install:install-file -Dfile=/home/cogs/Downloads/cpcn-payment-api-2.2.1.jar -DgroupId=payment.api -DartifactId=cpcn-payment-api -Dversion=2.2.1 -Dpackaging=jar
 
 
