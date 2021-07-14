@@ -1,4 +1,4 @@
-
+```js
 const request = require('superagent');
 const fs = require('fs-extra');
 const path = require('path');
@@ -92,3 +92,4 @@ async function init(){
 
 /* 函数调用 */
 init();
+```

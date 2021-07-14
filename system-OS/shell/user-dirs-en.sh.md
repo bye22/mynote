@@ -1,3 +1,4 @@
+```sh
 (cat <<EOF
 # This file is written by xdg-user-dirs-update
 # If you want to change or add directories, just edit the line you're
@@ -16,3 +17,4 @@ XDG_PICTURES_DIR="\$HOME/Picture"
 XDG_VIDEOS_DIR="\$HOME/Video"
 EOF
 ) > ~/.config/user-dirs.dirs
+```

@@ -15,6 +15,7 @@ sudo archlinux-java set java-8-jdk
 vim快捷键运行
 map<F6> :call CompileRunGcc()<CR>
 
+```
 func! CompileRunGcc()
 
 •     exec "w"
@@ -46,3 +47,4 @@ func! CompileRunGcc()
 •     endif
 
  endfunc 
+```

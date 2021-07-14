@@ -1,3 +1,4 @@
+```sh
 127.0.0.1 localhost
 ::1		localhost
 127.0.1.1	pop-os.localdomain	pop-os
@@ -32,3 +33,4 @@
 216.58.200.238 code.google.com
 
 # ipaddress.com
+```

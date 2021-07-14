@@ -1,3 +1,4 @@
+```sh
 ##
 # 清华源
 ##
@@ -65,3 +66,4 @@ deb [trusted=yes] https://deepin-wine.i-m.dev /
 #deb-src http://mirrors.163.com/ubuntu/ focal-updates main restricted universe multiverse
 #deb-src http://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
 #deb-src http://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
+```

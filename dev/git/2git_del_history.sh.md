@@ -1,3 +1,4 @@
+```sh
 rm -rf .git/refs/original/
  
 git reflog expire --expire=now --all
@@ -9,3 +10,4 @@ git repack -A -d
 git gc --aggressive --prune=now
 
 #git push origin master --force
+```

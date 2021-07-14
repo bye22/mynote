@@ -1,3 +1,4 @@
+```py
 from docx import Document
 from docx.shared import Inches
 from docx.shared import Pt
@@ -102,3 +103,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+```

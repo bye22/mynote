@@ -1,3 +1,4 @@
+```py
 # -*- coding:UTF-8 -*-
 import requests, json, time, sys
 from contextlib import closing
@@ -24,3 +25,4 @@ def getUrlAndName():
             print(y['img_src'])
 if __name__ == '__main__':
     getUrlAndName()
+```
