@@ -106,7 +106,7 @@
     - [Nscd](net/nscd.md)
     - [Socket](net/socket.md)
     - [内网穿透](net/内网穿透.md)
-- [System-OS](#)
+- [SystemOS](#)
     - [Debian](#)
         - [Apt](system-OS/0-debian/apt.md)
         - [Debian-Mirrors](system-OS/0-debian/debian-mirrors.md)

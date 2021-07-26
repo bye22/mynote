@@ -1,1 +1,0 @@
-# Manjaro No Sound
