@@ -1,0 +1,13 @@
+[book]
+authors = ["bye"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "mynote"
+
+[output.html.playpen]
+editable = true
+editor = "ace"
+
+[output.html.fold]
+enable = true
