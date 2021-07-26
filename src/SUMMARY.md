@@ -1,6 +1,5 @@
 # mynote
 
-- [Chapter 1](chapter_1.md)
 - [Blob](#)
     - [Study Rust](blob/Study_Rust.md)
     - [Activiti6.0入门手册](blob/activiti6.0入门手册.md)
