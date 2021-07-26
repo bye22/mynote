@@ -2,7 +2,7 @@
 **/node_modules/*
 .gradle
 .idea
-/work
+*/work
 /node_modules/
 .redisConsole.log
 book
