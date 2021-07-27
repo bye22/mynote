@@ -215,3 +215,22 @@ Footer :
 
 
 
+# git命令行创建远程仓库
+https://github.com/settings/tokens
+git push --set-upstream origin master
+git push -u origin master
+curl -u Proby143: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   https://api.github.com/user/repos -d '{"name":"'rutool'"}'
+```zsh
+github-create() 
+{if [ $1 ]
+then
+    repo_name=$1
+else
+    repo_name=`basename $(pwd)`
+    echo "set Repo name to ${repo_name}"
+fi 
+curl -u 'username:api_token' https://api.github.com/user/repos -d '{"name":"'$repo_name'"}'
+git remote add origin git@github.com:username/$repo_name.git
+}
+
+```
