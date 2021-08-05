@@ -24,3 +24,10 @@ flush privileges;
 ```
 mysql_upgrade -s -p
 ```
+
+6. Access denied for user 'root'@'%' (using password: YES)
+> 权限问题
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123.com' WITH GRANT OPTION; 
+
+flush privileges;
