@@ -4,7 +4,7 @@
 ## locate 命令安装：
 
 ```bash
--bash: locate: command not found
+
  
 #Debian
 apt-get install mlocate
@@ -42,6 +42,7 @@ docker run cmd.cat/locate locate
 
 ### 问题一：
 ---
+-bash: locate: command not found
 locate: 无法执行 stat () `/var/lib/mlocate/mlocate.db': 没有那个文件或目录
 --- 
 
