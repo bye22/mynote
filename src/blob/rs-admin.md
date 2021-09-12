@@ -26,6 +26,10 @@
 
 > https://github.com/NyxCode/ormx.git
 
+
+3. rbatis
+
+> https://hub.fastgit.org/rbatis/rbatis
 # redis
 
 1. redis-rs
@@ -45,3 +49,9 @@
 1. rust-jwt
 
 > https://github.com/mikkyang/rust-jwt.git
+
+# 日志
+
+1. fast_log
+
+> https://hub.fastgit.org/rbatis/fast_log
