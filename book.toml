@@ -1,13 +1,9 @@
 [book]
 authors = ["bye"]
-language = "zh-CN"
+language = "en"
 multilingual = false
 src = "src"
-title = "mynote"
-
-[output.html.playpen]
-editable = true
-editor = "ace"
+title = "bye笔记"
 
 [output.html.fold]
 enable = true
