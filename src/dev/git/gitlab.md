@@ -1,3 +1,6 @@
+# reset password
+sudo gitlab-rake "gitlab:password:reset"
+
 # install gitlab
 
 ```
