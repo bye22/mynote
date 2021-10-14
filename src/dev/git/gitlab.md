@@ -1,3 +1,7 @@
+# gitlab包含历史提交记录代码迁移
+git clone --bare https://username:password@gitlab.shuzhuo.com/demo.git
+git push --mirror http://username:psaaword@127.0.0.1/demo.git
+
 # reset password
 sudo gitlab-rake "gitlab:password:reset"
 
