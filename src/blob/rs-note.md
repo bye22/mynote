@@ -1,3 +1,5 @@
+# String &String str &str *String *&String
+
 # Rust数据类型
 ## 标量类型
 整型
