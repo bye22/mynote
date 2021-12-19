@@ -5,5 +5,7 @@ multilingual = false
 src = "src"
 title = "bye笔记"
 
+
 [output.html.fold]
 enable = true
+level = 0

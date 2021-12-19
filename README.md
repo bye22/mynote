@@ -15,3 +15,7 @@
 [output.html.fold]
 enable = true
 ```
+- 生成summary.md文件
+```
+cargo install book-summary
+```
