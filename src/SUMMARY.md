@@ -2,7 +2,6 @@
 
 - [Index](index.md)
 - [Zsh Script](#)
-    - [Summary](0zsh_script/SUMMARY.md)
     - [Merge Bookmark](0zsh_script/merge_bookmark.md)
 - [Pre](#)
     - [QAResolve](1pre/QAResolve.md)
