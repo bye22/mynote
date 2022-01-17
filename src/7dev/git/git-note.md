@@ -1,4 +1,6 @@
-git 本地保存账号密码
+## git 本地保存账号密码
+---
+<br/>
 如果https的话,每次都用输入账号密码很繁琐
 解决方法，在本地的工程文件夹的.git下打开config文件
 添加：
@@ -40,10 +42,13 @@ git config --global credential.helper store
 http://yourname:password@git.oschina.net/name/project.git
 ```
 
+---
 
-git设置用户名密码
 
-设置git用户名／邮箱
+
+## git设置用户名密码
+---
+### 设置git用户名／邮箱
 
 
 ```bash
@@ -52,8 +57,10 @@ git config --global user.name [username]
 git config --global user.email [email]
 ```
 
-git保存用户名密码
-1.使用如下命令，修改config文件即可保存
+#### git保存用户名密码
+<br>
+
+1. 使用如下命令，修改config文件即可保存
 
 
 ```bash
@@ -61,21 +68,18 @@ echo "[credential]" >> .git/config
 
 echo "    helper = store" >> .git/config
 ```
-2.直接修改.git/config文件
+<br>
 
-
+2. 直接修改.git/config文件
 
 在linux/mac下可以直接使用vim工具修改config文件
-
-
 
 ```bash
 $ vim .git/config
 ```
 
 
-##修改成如下
-
+> 修改成如下
 
 ```
 [core]
@@ -101,7 +105,7 @@ $ vim .git/config
     merge = refs/heads/master
 ```
 
-##主要是后面这两行，如果不想保存，则删除即可
+## 主要是后面这两行，如果不想保存，则删除即可
 ```
 [credential]
 
@@ -109,11 +113,17 @@ $ vim .git/config
 ```
 
 
-##保存
+### 保存
+--- 
+<br>
 
+# git config查看配置 
 
-git config查看配置 
-`git config --list`
+<br>
+
+```git config --list```
+
+<br>
 
 
 # Git设置全局忽略文件
@@ -135,8 +145,11 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 ```
 
 ---
+<br>
 
 > 项目中使用commitizen生成符合AngularJS规范的提交说明(可选)
+
+<br>
 
 初始化命令主要进行了3件事情:
 
@@ -146,6 +159,8 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 在package.json中新增config.commitizen字段信息，主要用于配置cz工具的适配器路径
 
+<br>
+
 ```
 
 cd /[path]/[project]/
@@ -153,7 +168,6 @@ cd /[path]/[project]/
 npm init --yes
 
 commitizen init cz-conventional-changelog --save --save-exact --force
-
 
 ```
 ---
@@ -211,15 +225,20 @@ Footer :
         后面是对变更的描述,以及变动的理由和迁移方法.
 关闭缺陷 :
          如果当前提交是针对特定的issue，那么可以在Footer部分填写需要关闭的单个issue 或一系列issues.
+
 ---
-
-
+<br>
 
 # git命令行创建远程仓库
 https://github.com/settings/tokens
+<br>
+
+```zsh
 git push --set-upstream origin master
 git push -u origin master
 curl -u Proby143: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   https://api.github.com/user/repos -d '{"name":"'rutool'"}'
+```
+ 脚本
 ```zsh
 github-create() 
 {if [ $1 ]
