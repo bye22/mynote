@@ -1,5 +1,6 @@
 # bye笔记
 
+- [Index](index.md)
 - [Bookmark](#)
     - [Bookmarks 2020 3 13](0bookmark/bookmarks_2020_3_13.md)
     - [Bookmarks 2020 3 16](0bookmark/bookmarks_2020_3_16.md)
