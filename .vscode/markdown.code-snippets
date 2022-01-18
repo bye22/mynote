@@ -25,6 +25,14 @@
 		],
 		"description": "代码块。"
 	},
+	"mind_output": {
+		"scope": "markdown",
+		"prefix": "mout",
+		"body": [
+			"> **模型输出**：$0"
+		],
+		"description": "代码块。"
+	},
 	"table arround":{
 		"scope": "markdown",
 		"prefix": "tb4",
