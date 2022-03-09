@@ -25,7 +25,7 @@ git config credential.helper 'cache --timeout=3600'
 这样就设置一个小时之后失效
 
 
-长期存储密码：
+## 长期存储密码：
 
 
 ```
