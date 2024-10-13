@@ -39,3 +39,11 @@ git branch (branchname)：创建分支命令
 git checkout (branchname)：切换分支命令
 git merge：合并分支命令
 git branch -d (branchname)：删除分支命令
+
+# Git 远程仓库
+
+git remote add：添加远程仓库
+git remote：查看当前的远程仓库
+git fetch、git pull：提取远程仓仓库
+git push：推送到远程仓库
+git remote rm：删除远程仓库
