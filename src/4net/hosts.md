@@ -1,7 +1,9 @@
+# hosts
+
 ```sh
 127.0.0.1 localhost
-::1		localhost
-127.0.1.1	pop-os.localdomain	pop-os
+::1  localhost
+127.0.1.1 pop-os.localdomain pop-os
 
 # GitHub Start
 140.82.114.4 github.com

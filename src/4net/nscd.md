@@ -6,7 +6,8 @@
 nscd 的配置文件默认路径为`/etc/nscd.conf`。
 
 阿里云主机的 nscd 配置信息如下：
-```
+
+```shell
 # 日志文件
 #logfile        /var/log/nscd.log
 # 调试级别
@@ -43,7 +44,8 @@ max-db-size     hosts       33554432
 nscd 服务默认是关闭的，通过`service nscd start`开启。
 
 查看统计信息
-```
+
+```shell
 $ nscd -g
 
 nscd configuration:
@@ -81,13 +83,17 @@ hosts cache:
 ```
 
 - 清除缓存
- ```
+
+ ```shell
     当更改完域名指向后，清除dns缓存
 $ nscd -i hosts
 ```
+
 - 关闭服务
+
+```shell
+nscd -K
 ```
-$ nscd -K
-```
+
 - 作用
 开启 nscd 的 hosts 缓存服务后，每次内部接口请求不会都发起 dns 解析请求，而是直接命中 nscd 缓存散列表，从而获取对应服务器 ip 地址，这样可以在大量内部接口请求时减少接口的响应时间。
