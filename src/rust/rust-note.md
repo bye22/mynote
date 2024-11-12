@@ -49,7 +49,7 @@ if let T:t = VAR {}
 }
 ```
 
-## & vs ref
+## `&` vs `ref`
 
     & denotes that your pattern expects a reference to an object. Hence & is a part of said pattern: &Foo matches different objects than Foo does.
 
